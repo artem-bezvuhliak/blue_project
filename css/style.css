@@ -1,0 +1,277 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+}
+body {
+	font-family: Arial, sans-serif;
+	background: url(../images/bubls.png) 58% 75% no-repeat,
+				url(../images/full_page_bg.png) repeat-x;
+}
+h1 {
+	font-size: 36px;
+	font-weight: normal;
+	color: #132445;
+	padding-top: 25px;
+}
+h2 {
+	font-weight: bold;
+	font-size: 20px;
+	color: #132445;
+}
+h3 {
+	font-weight: bold;
+	font-size: 15px;
+	color: #132445;
+}
+p {
+	font-size: 13px;
+	color: #132445;
+}
+a {
+	text-decoration: none;
+}
+.wrap {
+	width: 960px;
+	margin: 0 auto;
+}
+.header {
+	height: 593px;
+}
+.header .nav_content {
+	width: 960px;
+	height: 90px;
+}
+.nav {
+	height: 91px;
+	width: 100%;
+	margin: 0 auto;
+}
+.nav .logo {
+	margin-top: 15px;
+	width: 220px;
+	float: left;
+}
+.nav .logo p {
+	color: #3d5ba4;
+	font-size: 14px;
+}
+.nav .navigation {
+	width: 555px;
+	height: 100%;
+	float: right;
+}
+.nav .navigation ul {
+	list-style: none;
+}
+.navigation ul li {
+	display: inline-block;
+	margin-top: 35px;
+	margin-right: 40px;
+}
+.navigation ul li a {
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	color: #2f57a1;
+}
+.navigation ul li:first-child {
+	background-image: url(../images/button_nav.png);
+	background-repeat: no-repeat;
+	width: 70px;
+    height: 26px;
+    margin-right: 23px;
+	margin-top: 32px;
+    text-align: center;
+}
+.navigation ul li:first-child a {
+	color: #000;
+}
+.navigation ul li:last-child {
+	margin-right: 0px;
+}
+.slider {
+	height: 500px;
+	width: 100%;
+}
+.slider .monitors {
+	display: inline-block;
+	margin-top: 20px;
+}
+.slider .buttons{
+	width: 150px;
+	height: 19px;
+	display: inline-block;
+	margin-left: 42.3%;
+}
+.slider .buttons img {
+	display: inline-block;
+	margin-right: 15px;
+}
+.wrap .content {
+	width: 968px;
+	height: 800px;
+	background-image: url(../images/content_bg.png);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+.content > .img {
+ 	float: right;
+ 	padding-left: 36px;
+ 	padding-top: 12px;
+}	
+.boxes {
+	margin-top: 55px;
+	margin-bottom: 26px;
+	width: 968px;
+	height: 318px;
+	overflow: hidden;
+
+}
+.boxes .box1,.box2,.box3 {
+	border: 1px solid #bfc4d1;
+	width: 218px;
+	height: 315px;
+	background-color: #fff;
+	float: left;
+	margin-right: 28px;
+
+}
+.box4 {
+	width: 218px;
+	height: 315px;
+	border: 1px solid #bfc4d1;
+	background-color: #fff;
+	float: left; 
+}
+.boxes img {
+	margin: 19px 18px;
+}
+.boxes p {
+	margin-left: 18px;
+}
+.boxes h2 {
+	margin-left: 18px;
+	margin-bottom: 22px;
+}
+.boxes .read_more img {
+	width: 111px;
+	height: 26px;
+	margin-left: 18px;
+	margin-top: 14px;
+}
+.title {
+	width: 466px;
+	height: 260px;
+	float: left;
+}
+
+.title .title1,.title2,.title3,.title4 {
+	width: 218px;
+	height: 114px;
+	float: left;
+}
+.title1,.title2 {
+	padding-bottom: 30px;
+}
+.title h3 {
+	height: 44px;
+	padding-left: 52px;
+	line-height: 44px;
+}
+.title1 h3 {
+	background-image: url(../images/man.png);
+	background-repeat: no-repeat;
+}
+.title1 p {
+	padding-top: 10px;
+}
+.title2 h3 {
+	background-image: url(../images/earth.png);
+	background-repeat: no-repeat;
+}
+.title2 p {
+	padding-top: 10px;
+}
+.title3 h3 {
+	background-image: url(../images/compass.png);
+	background-repeat: no-repeat;
+}
+.title3 p {
+	padding-top: 10px;
+}
+.title4 h3 {
+	background-image: url(../images/light.png);
+	background-repeat: no-repeat;
+}
+.title4 p {
+	padding-top: 10px;
+}
+.text {
+	width: 453px;
+	height: 253px;
+	float: right;
+	line-height: 24px;
+}
+.text h3 {
+	padding-bottom: 24px;
+}
+.text a{
+	display: block;
+	font-size: 13px;
+	color: #2945c0;
+	margin-top: 20px;
+}
+.footer {
+	width: 100%;
+	height: 123px;
+	/*background-image: url(../images/footer_bg.png);*/
+	margin-top: 42px;
+}
+.footer_content {
+	width: 985px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.second_menu ul {
+	list-style: none;
+	width: 100%;
+}
+.second_menu ul li {
+	display: inline-block;
+	margin-top: 25px;
+	margin-bottom: 12px;
+	
+}
+.second_menu ul li a {
+	font-size: 13px;
+	color: #dadfeb;
+} 
+.second_menu  {
+	padding-left: 10px;
+	font-size: 12px;
+	color: #9fa8bd;
+	float: left;
+}
+.second_menu p {
+	color: #979fb6;
+}
+.social {
+	float: right;
+	margin-top: 25px;
+}
+.social p, a {
+	display: inline-block;
+	font-size: 13px;
+    color: #dadfeb;
+}
+.social p {
+	margin-right: 20px;
+	vertical-align: 80%;
+}
+.social a {
+	margin-right: 15px;
+}
